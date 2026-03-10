@@ -14,6 +14,28 @@ The main objective of this project is to understand and implement the complete m
 - Scikit-learn
 - Streamlit
 
+
+## Project Structure
+
+spam-detection-nlp
+│
+├── dataset
+│   └── train.csv
+│
+├── models
+│   ├── spam_model.pkl
+│   └── vectorizer.pkl
+│
+├── notebooks
+│   ├── spam_detection.py
+│   ├── spam_checker.py
+│   └── app.py
+│
+├── screenshots
+│   └── output.png
+│
+└── README.md
+
 ## Methodology
 The project follows a structured machine learning pipeline:
 1. Dataset loading and exploration
@@ -51,3 +73,4 @@ Congratulations! You won a free iPhone
 
 Output:
 SPAM MESSAGE
+
